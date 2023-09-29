@@ -10,8 +10,6 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  OldCreateOrder = False
-  PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
     Left = 0
@@ -29,9 +27,8 @@ object Form1: TForm1
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitTop = -97
-    ExplicitWidth = 406
-    ExplicitHeight = 396
+    ExplicitWidth = 386
+    ExplicitHeight = 433
     object Shape2: TShape
       Left = 72
       Top = 76
@@ -88,8 +85,8 @@ object Form1: TForm1
     AcceptCharset = 'UTF-8, *;q=0.8'
     BaseURL = 'http://viacep.com.br/ws'
     Params = <>
-    HandleRedirects = True
     RaiseExceptionOn500 = False
+    SynchronizedEvents = False
     Left = 24
     Top = 352
   end
